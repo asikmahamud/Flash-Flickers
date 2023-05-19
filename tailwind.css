@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base{
+
+    html{
+       scroll-behavior: smooth;
+    }
+
+    body{
+        @apply font-open-sans
+    }
+  
+    h1,h2,h3,h4,h5,h6{
+        @apply font-semibold text-gray-900 font-sans
+    }
+  
+    p{
+        @apply text-gray-600 text-base
+    }
+  }
